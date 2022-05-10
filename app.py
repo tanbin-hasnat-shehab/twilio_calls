@@ -17,6 +17,10 @@ SID=st.text_input('Account SID',sid)
 auth=st.text_input('Auth Token',Auth)
 tw_ph=st.text_input('My Twilio phone number',My_Twilio_phone_number)
 st.markdown('<a href="https://console.twilio.com/us1/develop/phone-numbers/manage/verified?frameUrl=%2Fconsole%2Fphone-numbers%2Fverified%3Fx-target-region%3Dus1">see verified phone numbers you can call</a>',unsafe_allow_html=True)
+st.markdown('<a href="https://www.twilio.com/console/voice/calls/geo-permissions/low-risk">check countries that phone calls allowed</a>',unsafe_allow_html=True)
+
+
+
 
 to_call=st.text_input('Enter Number')
 your_m=st.text_input('your message')
