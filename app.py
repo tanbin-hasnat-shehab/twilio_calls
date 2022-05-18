@@ -29,15 +29,6 @@ your_m=st.text_input('your message')
 
 def make_call():
 	client=Client(SID,auth)
-	
-	#call_now=client.calls.create(
-			twiml='<response><say>Do you Know me</say></response>',
-			from_=tw_ph,
-			to=to_call
-
-
-
-			)
 
 
 	messege=client.messages.create(
